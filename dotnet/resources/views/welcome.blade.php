@@ -36,7 +36,7 @@
                     {{$value->name}}
                 </td>
                 <td>
-                    <a href="{{ route('view-student',$value->id) }}">Edit </a> |<a href="{{ route('delete-student',$value->id) }}">deletegi </a>
+                    <a href="{{ route('view-student',$value->id) }}">Edit </a> |<a href="{{ route('delete-student',$value->id) }}">delete </a>
                 </td>
             </tr>   
         @endforeach
